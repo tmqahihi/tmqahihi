@@ -50,9 +50,9 @@ jobs:
           ]
 
           feed_urls = [
-              "https://nguyenngocanhtu.software/index.xml",
-              "https://nguyenngocanhtu.software/feed.xml",
-              "https://nguyenngocanhtu.software/rss.xml"
+              "https://TonMinhQuan.software/index.xml",
+              "https://TonMinhQuan.software/feed.xml",
+              "https://TonMinhQuan.software/rss.xml"
           ]
 
           entries = []

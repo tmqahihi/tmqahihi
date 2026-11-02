@@ -1,5 +1,5 @@
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!-- tmqahihi · NGUYỄN NGỌC ANH TÚ · Cybersecurity Researcher        -->
+<!-- tmqahihi · TÔN MINH QUÂN · Cybersecurity Researcher        -->
 <!-- Theme: NEON CYBERDECK · terminal aesthetic                       -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
@@ -122,7 +122,7 @@
   <a href="mailto:anhtunguyen.sec@proton.me">
     <img src="https://img.shields.io/badge/ProtonMail-0d1117?style=for-the-badge&logo=protonmail&logoColor=22d3ee&labelColor=0d1117" alt="ProtonMail"/>
   </a>
-  <a href="https://nguyenngocanhtu.software/">
+  <a href="https://TonMinhQuan.software/">
     <img src="https://img.shields.io/badge/Website-0d1117?style=for-the-badge&logo=hugo&logoColor=22d3ee&labelColor=0d1117" alt="Website"/>
   </a>
   <a href="https://github.com/tmqahihi">
@@ -135,7 +135,7 @@
     <img src="https://img.shields.io/badge/PGP_Key-4096R-0d1117?style=for-the-badge&logo=gnupg&logoColor=22d3ee&labelColor=0d1117" alt="PGP Key"/>
   </a>
   <br/><br/>
-  <a href="https://t.me/NguyenNgocAnhTu">
+  <a href="https://t.me/TonMinhQuan">
     <img src="https://img.shields.io/badge/Telegram-0d1117?style=for-the-badge&logo=telegram&logoColor=22d3ee&labelColor=0d1117" alt="Telegram"/>
   </a>
   <a href="https://linkedin.com/in/tmqahihi">

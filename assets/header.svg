@@ -1,5 +1,5 @@
-<svg viewBox="0 0 900 300" width="900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NGUYỄN NGỌC ANH TÚ — Cybersecurity Researcher" font-family="'Courier New',Consolas,ui-monospace,monospace">
-<title>NGUYỄN NGỌC ANH TÚ — Cybersecurity Researcher hero header</title>
+<svg viewBox="0 0 900 300" width="900" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TÔN MINH QUÂN — Cybersecurity Researcher" font-family="'Courier New',Consolas,ui-monospace,monospace">
+<title>TÔN MINH QUÂN — Cybersecurity Researcher hero header</title>
 <desc>Holographic glitch cyber console header with RGB-split name, binary rain side margins, scan beam, alias tmqahihi, role and status readouts.</desc>
 <defs>
 <linearGradient id="hg-panel" x1="0" y1="0" x2="0" y2="1">
@@ -100,10 +100,10 @@
 </g>
 
 <g filter="url(#hg-bloom)">
-<text x="450" y="150" text-anchor="middle" font-size="55" font-weight="700" fill="#ff5cf2" opacity="0.55" letter-spacing="2">NGUYỄN NGỌC ANH TÚ<animate attributeName="dx" values="0;-3;2;0;-2;0" dur="2.4s" repeatCount="indefinite"/></text>
-<text x="450" y="150" text-anchor="middle" font-size="55" font-weight="700" fill="#22d3ee" opacity="0.55" letter-spacing="2">NGUYỄN NGỌC ANH TÚ<animate attributeName="dx" values="0;3;-2;0;2;0" dur="2.4s" repeatCount="indefinite"/></text>
-<text x="450" y="150" text-anchor="middle" font-size="55" font-weight="700" fill="url(#hg-name)" letter-spacing="2">NGUYỄN NGỌC ANH TÚ</text>
-<text x="450" y="150" text-anchor="middle" font-size="55" font-weight="700" fill="url(#hg-shim)" letter-spacing="2" opacity="0">NGUYỄN NGỌC ANH TÚ<animate attributeName="opacity" values="0;0;1;0;0" dur="5s" repeatCount="indefinite"/></text>
+<text x="450" y="150" text-anchor="middle" font-size="55" font-weight="700" fill="#ff5cf2" opacity="0.55" letter-spacing="2">TÔN MINH QUÂN<animate attributeName="dx" values="0;-3;2;0;-2;0" dur="2.4s" repeatCount="indefinite"/></text>
+<text x="450" y="150" text-anchor="middle" font-size="55" font-weight="700" fill="#22d3ee" opacity="0.55" letter-spacing="2">TÔN MINH QUÂN<animate attributeName="dx" values="0;3;-2;0;2;0" dur="2.4s" repeatCount="indefinite"/></text>
+<text x="450" y="150" text-anchor="middle" font-size="55" font-weight="700" fill="url(#hg-name)" letter-spacing="2">TÔN MINH QUÂN</text>
+<text x="450" y="150" text-anchor="middle" font-size="55" font-weight="700" fill="url(#hg-shim)" letter-spacing="2" opacity="0">TÔN MINH QUÂN<animate attributeName="opacity" values="0;0;1;0;0" dur="5s" repeatCount="indefinite"/></text>
 </g>
 
 <g text-anchor="middle">

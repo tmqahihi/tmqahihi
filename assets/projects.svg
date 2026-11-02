@@ -117,7 +117,7 @@
     <!-- row template: name | star | chip | desc -->
     <!-- row 1 -->
     <rect x="26" y="98" width="848" height="34" rx="4" fill="#22d3ee" opacity="0.035"/>
-    <text x="42" y="120" fill="#22d3ee" font-weight="bold" filter="url(#m2soft)">NguyenNgocAnhTu</text>
+    <text x="42" y="120" fill="#22d3ee" font-weight="bold" filter="url(#m2soft)">TonMinhQuan</text>
     <text class="m2tw" x="248" y="120" fill="#ffbd2e">★</text>
     <text x="262" y="120" fill="#e6edf3">43</text>
     <rect x="300" y="108" width="92" height="17" rx="8.5" fill="#f7df1e" opacity="0.14" stroke="#f7df1e" stroke-opacity="0.35"/>
