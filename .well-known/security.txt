@@ -1,0 +1,14 @@
+# ════════════════════════════════════════════════════════════════
+# RFC 9116 Vulnerability Disclosure Policy & Security Contact
+# Identity : NGUYỄN NGỌC ANH TÚ (alias tmqahihi)
+# Scope    : https://github.com/tmqahihi · https://nguyenngocanhtu.software
+# ════════════════════════════════════════════════════════════════
+
+Contact: mailto:anhtunguyen.sec@proton.me
+Expires: 2028-12-31T23:59:59.000Z
+Encryption: https://github.com/tmqahihi.gpg
+Preferred-Languages: en, vi
+Canonical: https://raw.githubusercontent.com/tmqahihi/tmqahihi/main/.well-known/security.txt
+Policy: https://nguyenngocanhtu.software/
+Acknowledgments: https://github.com/tmqahihi
+Hiring: https://linkedin.com/in/tmqahihi
