@@ -1,55 +1,31 @@
-name: Generate Snake (Cyberdeck)
+name: Generate Snake Animation
 
 on:
   schedule:
-    # every 12 hours
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *" # Tự động chạy lại mỗi 12 tiếng
+  workflow_dispatch: # Cho phép bấm nút chạy tay bất cứ lúc nào
   push:
     branches:
       - main
-    # The commit made by this workflow only updates the generated snake.
-    # Ignore it so the update cannot trigger another identical run.
-    paths-ignore:
-      - assets/snake.svg
-
-concurrency:
-  group: contribution-snake
-  cancel-in-progress: false
 
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate cyberdeck snake (cyan snake · magenta dots)
+      - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: tmqahihi
           outputs: |
-            assets/snake.svg?palette=github-dark&color_snake=#22d3ee&color_dots=#161b22,#3a1230,#7d1f63,#c23a9b,#ff5cf2
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#22d3ee
+
+      - name: Push to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Post-process snake SVG (a11y & layout)
-        shell: python
-        run: |
-          import re
-          from pathlib import Path
-          path = Path("assets/snake.svg")
-          text = path.read_text(encoding="utf-8")
-          text = text.replace(".u{", ".u{display:none;")
-          text = re.sub(r'viewBox="[^"]*"', 'viewBox="-16 -32 880 160" role="img" aria-label="Contribution snake animation"', text, count=1)
-          if "<title>" not in text:
-              text = re.sub(r'(<svg[^>]*>)', r'\1<title>Contribution Snake</title>', text, count=1)
-          path.write_text(text, encoding="utf-8")
-
-      - name: Commit & Push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update contribution snake"
-          file_pattern: "assets/snake.svg"
