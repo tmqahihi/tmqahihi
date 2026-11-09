@@ -2,7 +2,6 @@ name: Generate Ultra Snake Animation
 
 on:
   schedule:
-    # Tự động vẽ lại đường chạy mới mỗi 6 tiếng
     - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
@@ -20,8 +19,8 @@ jobs:
         with:
           github_user_name: tmqahihi
           outputs: |
-            dist/github-snake.svg?color_snake=#00f0ff&color_dots=#ebedf0,#fecaca,#f87171,#ef4444,#ff0033
-            dist/github-snake-dark.svg?color_snake=#00f0ff&color_dots=#0d1117,#450a0a,#991b1b,#dc2626,#ff003f
+            dist/github-snake.svg?color_snake=#00f0ff&color_dots=#ebedf0,#c084fc,#a855f7,#7e22ce,#3b0764
+            dist/github-snake-dark.svg?color_snake=#facc15&color_dots=#0f172a,#581c87,#7e22ce,#c084fc,#f472b6
 
       - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
