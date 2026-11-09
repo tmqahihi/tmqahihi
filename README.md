@@ -53,17 +53,9 @@
 
 <!-- ─── CONTRIBUTION STREAM ────────────────────────────────────── -->
 
-<div align="center">
-  <code>tmqahihi@sec:~$ ./snake.sh --eat-contributions</code>
-</div>
-
-<br/>
-
-<div align="center">
-  <img width="100%" src="assets/snake.svg" alt="Contribution Snake"/>
-</div>
-
-<br/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tmqahihi/tmqahihi/output/github-snake.svg" alt="Snake" />
+</p>
 
 <!-- ─── RESEARCH DISPATCHES ────────────────────────────────────── -->
 
@@ -119,7 +111,7 @@
 <br/>
 
 <div align="center">
-  <a href="mailto:anhtunguyen.sec@proton.me">
+  <a href="">
     <img src="https://img.shields.io/badge/ProtonMail-0d1117?style=for-the-badge&logo=protonmail&logoColor=22d3ee&labelColor=0d1117" alt="ProtonMail"/>
   </a>
   <a href="https://TonMinhQuan.software/">
