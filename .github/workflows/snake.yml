@@ -1,9 +1,9 @@
-name: Generate Snake Animation
+name: Generate Ultra Snake Animation
 
 on:
   schedule:
-    # Tự động cập nhật mỗi 12 tiếng một lần
-    - cron: "0 */12 * * *"
+    # Tự động vẽ lại đường chạy mới mỗi 6 tiếng
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -15,15 +15,15 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Snake SVG
+      - name: Generate Snake Animations
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: tmqahihi
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#22d3ee
+            dist/github-snake.svg?color_snake=#00f0ff&color_dots=#ebedf0,#fecaca,#f87171,#ef4444,#ff0033
+            dist/github-snake-dark.svg?color_snake=#00f0ff&color_dots=#0d1117,#450a0a,#991b1b,#dc2626,#ff003f
 
-      - name: Push to Output Branch
+      - name: Deploy to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
